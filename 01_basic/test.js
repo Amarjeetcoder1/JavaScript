@@ -53,3 +53,9 @@ let users = [
 
   const bigNumber = 323234334553353534n
   console.log(typeof(bigNumber));
+
+  let newDate = new Date()
+console.log(newDate.getMonth() + 1);
+console.log(newDate.getDay());
+console.log(newDate.getFullYear());
+console.log(newDate.getTime());
