@@ -32,7 +32,7 @@ console.log(Array.from({name: "Amarjeet"}));  //intresting
 
 
 
-// Conert string or number to an array
+// Convert string or number to an array
 let score1 = '100';
 let score2 = '1000';
 let score3 = '10000';
