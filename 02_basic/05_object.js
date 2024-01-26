@@ -41,10 +41,10 @@ console.log(age);  // 28
 
 // +++++++++++++++/* JSON-encoded object: ++++++++++++
 
-// {
-//     "name": "W3Docs",
-//     "coursename": "JS in Hindi",
-//     "price": "free"
+{
+    "name": "W3Docs",
+    "coursename": "JS in Hindi",
+    "price": "free"
 
-// }
+}
 

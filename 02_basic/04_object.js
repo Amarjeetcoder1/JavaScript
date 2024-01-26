@@ -27,11 +27,12 @@ console.log(regularUser.fulltname.userfullname);
 
 // console.log(regularUser.fulltname.userfullname.firstname);
 
+// ++++++++++++ Merage two or more Objects ++++++++++++
 const obj1 = { 1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 const obj4 = {4: "a", 5: "b"}
 
-// const obj3 = {obj1, obj2}
+// Using Object.assign():
 // const obj3 = Object.assign( {}, obj1, obj2, obj4)
 // console.log(obj3);
 
@@ -39,12 +40,14 @@ const obj4 = {4: "a", 5: "b"}
 // target => {}
 // Source => obj1, obj2, obj3
 
-//Simple way to merage two array
+
+//Using Spread Syntax:
 const obj3 = {...obj1, ...obj2, ...obj4}
 // console.log(obj3);
 
-// ++++Array of Objects ++++++
 
+
+// ++++Array of Objects ++++++
 const users = [
     {
       name: "John Doe",
