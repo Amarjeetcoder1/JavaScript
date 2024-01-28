@@ -1,4 +1,4 @@
-// switch (key) {
+// switch (key) { key === valrible name 
 //     case value:
         
 //         break;
@@ -7,43 +7,43 @@
 //         break;
 // }
 
-const month = 3
+const month = "April"
 
 switch (month) {
-    case 1:
+    case "Jan":
         console.log("January");
         break;
-    case 2:
+    case "Feb":
         console.log("February");
         break;
-    case 3:
+    case "March":
         console.log("March");
         break;
-    case 4:
+    case "April":
         console.log("April");
         break;
-    case 5:
+    case "May":
         console.log("May");
         break;
-    case 6:
+    case "Jun":
         console.log("June");
         break;
-    case 7:
+    case "July":
         console.log("July");
         break;
-    case 8:
+    case "Aug":
         console.log("August");
         break;
-    case 9:
+    case "sept":
         console.log("Sept");
         break;
-    case 10:
+    case "oct":
         console.log("Oct");
         break;
-    case 11:
+    case "nov":
         console.log("Nov");
         break;
-    case 12:
+    case "Dec":
         console.log("Dec");
         break;
     
