@@ -77,6 +77,5 @@ console.log(addTwo(2,8));
 
 // Simple Example
 
-// const myArray = [2, 4, 7, 8]
+// 
 
-// myArray.forEach(() => (num1,num2))
