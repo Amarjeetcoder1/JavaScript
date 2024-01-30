@@ -57,7 +57,7 @@ const chai = () => {
 chai()
 
 // First way to declear Arrow Function
-// const addTwo = (num1, num2) => {
+//  (const addTwo =num1, num2) => {
 //     return num1 + num2
 // }
 
