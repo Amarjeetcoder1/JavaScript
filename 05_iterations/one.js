@@ -27,9 +27,6 @@ for (let index = 0; index < myarray.length; index) {
     
 }
 
-// break and continue 
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    
-}
+// Break and comtinue
+
