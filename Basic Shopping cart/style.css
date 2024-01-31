@@ -1,0 +1,36 @@
+body {
+    background-color: #efefef;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.container h1 {
+    color: #560bad;
+}
+
+.container header {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+}
+
+.container header .shooping {
+    position: relative;
+    text-align: right;
+}
+
+.shooping i {
+    font-size: 3rem;
+    color: #560bad;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
