@@ -40,12 +40,20 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => (bk.genre === 'History'))
-  
-  userBooks = books.filter( (bk) => {
-    return bk.publish >= 1995 && bk.genre === 'History'
-  })
 
-  userBooks = books.filter( (bk)=> (bk.edition >= 2016) )
-  console.log(userBooks);
+  // let shivam = books.filter((lalit)=>(lalit.genre == 'Science'))
+  // console.log(shivam);
+
+   let shivam = books.filter((lalit)=>{ return lalit.genre == 'Science'})
+  console.log(shivam);
+
+  // let userBooks = books.filter( (bk) => (bk.genre === 'History'))
+  // console.log(userBooks);
+  
+  // userBooks = books.filter( (bk) => {
+  //   return bk.publish >= 1995 && bk.genre === 'History'
+  // })
+
+  // userBooks = books.filter( (bk)=> (bk.edition >= 2016) )
+  
 
